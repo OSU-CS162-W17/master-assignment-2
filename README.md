@@ -66,6 +66,8 @@ class Player {
 };
 ```
 
+Note that the `Player` class above must represent both the human player and the computer player.  You should write your class methods accordingly and add any extra data members needed to accomplish this.
+
 ```
 class Game {
   private:
