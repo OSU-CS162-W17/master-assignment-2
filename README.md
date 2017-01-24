@@ -16,7 +16,7 @@ A game of Go Fish between two players proceeds as follows:
   * One of the players (player A) begins the game by asking the other player (player B) for all of his/her cards of a specific rank (e.g. "Please give me all of your 7's").  To ask for a given rank, a player must have at least one card of that rank in his/her hand.
   * If player B has cards of the requested rank, he/she must give *all* of his/her cards of that rank to player A, and player A gets to take another turn.
   * If player B does not have any cards of the requested rank, he/she says "Go fish", and player A must select one card from the stock.  If that card has the rank player A originally requested, then player A gets to take another turn.  Otherwise, it becomes player B's turn.
-  * If at any point a player runs out of cards, then, when it is that player's turn to play, they may draw a card from the stock and ask for cards of that rank.  If a player runs out of other cards when it is the other player's turn to ask for a card, the other player must draw from the stock instead.
+  * If at any point a player runs out of cards, then, when it is that player's turn to play, they may draw a card from the stock and ask for cards of that rank.  If a player runs out of other cards when it is the other player's turn to ask for a rank, the other player may continue to ask for a rank and draw from the stock until they draw a rank other than the one they asked for.
   * If a player collects all four cards of the same rank, this is called a "book", and the player lays down his/her book on the table.
   * The game continues with the players alternating turns until all of the books are laid down.  At the end of the game, the player with the most books wins.
 
